@@ -6,4 +6,10 @@
 //  Copyright © 2018 Theo Marie. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+let NOIR = UIColor.black
+let GRID_TRES_FONCE = UIColor(red: 30/255, green: 30/255, blue: 30/255, alpha: 1)
+let GRID_TRES_CLAIR = UIColor(red: 240/255, green: 240/255, blue: 240/255, alpha: 1)
+
+let FONT_DE_BASE = UIFont(name: "Chalkduster", size: 20)

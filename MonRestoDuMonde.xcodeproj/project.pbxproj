@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2458C90521BEDE280046E4AA /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2458C90421BEDE280046E4AA /* MonTabBar.swift */; };
+		2458C90921BEDE950046E4AA /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2458C90821BEDE950046E4AA /* Constantes.swift */; };
+		2458C90B21BEE1C10046E4AA /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2458C90A21BEE1C10046E4AA /* MonNav.swift */; };
 		24FF876321BDB0FB00D842F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FF876221BDB0FB00D842F1 /* AppDelegate.swift */; };
 		24FF876821BDB0FB00D842F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FF876621BDB0FB00D842F1 /* Main.storyboard */; };
 		24FF876A21BDB0FF00D842F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FF876921BDB0FF00D842F1 /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2458C90421BEDE280046E4AA /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
+		2458C90821BEDE950046E4AA /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		2458C90A21BEE1C10046E4AA /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 		24FF875F21BDB0FB00D842F1 /* MonRestoDuMonde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRestoDuMonde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FF876221BDB0FB00D842F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24FF876721BDB0FB00D842F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2458C90621BEDE600046E4AA /* Utilitaire */ = {
+			isa = PBXGroup;
+			children = (
+				2458C90821BEDE950046E4AA /* Constantes.swift */,
+			);
+			path = Utilitaire;
+			sourceTree = "<group>";
+		};
 		24FF875621BDB0FB00D842F1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +70,7 @@
 		24FF876121BDB0FB00D842F1 /* MonRestoDuMonde */ = {
 			isa = PBXGroup;
 			children = (
+				2458C90621BEDE600046E4AA /* Utilitaire */,
 				24FF877421BDB97500D842F1 /* Modele */,
 				24FF877521BDB98100D842F1 /* View */,
 				24FF877621BDB98A00D842F1 /* Controller */,
@@ -87,6 +102,8 @@
 			children = (
 				24FF877721BDBA0C00D842F1 /* MenuController.swift */,
 				24FF877921BDBAC000D842F1 /* ALaCarteController.swift */,
+				2458C90421BEDE280046E4AA /* MonTabBar.swift */,
+				2458C90A21BEE1C10046E4AA /* MonNav.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -162,6 +179,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2458C90921BEDE950046E4AA /* Constantes.swift in Sources */,
+				2458C90521BEDE280046E4AA /* MonTabBar.swift in Sources */,
+				2458C90B21BEE1C10046E4AA /* MonNav.swift in Sources */,
 				24FF877821BDBA0C00D842F1 /* MenuController.swift in Sources */,
 				24FF876321BDB0FB00D842F1 /* AppDelegate.swift in Sources */,
 				24FF877A21BDBAC000D842F1 /* ALaCarteController.swift in Sources */,
