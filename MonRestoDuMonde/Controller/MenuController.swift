@@ -16,16 +16,22 @@ class MenuController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     let cellID = "MenuCell" // uniquement dans controller
     
+    var menus = [Menu]()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Les Menus"
         
         collectionView.delegate = self
         collectionView.dataSource = self
+        
+       menus = LesPlats.obtenir.lesMenus() // variable qui contient l'ensemble des menus
+        collectionView.reloadData()
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return menus.count // retourne le nombre de collectionView = a menus
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
